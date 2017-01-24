@@ -1,1 +1,1 @@
-# quizzes
+# Simple solutions using JavaScript
