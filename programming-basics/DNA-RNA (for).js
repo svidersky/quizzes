@@ -13,16 +13,16 @@ export const toRna = (dnk) => {
       rnk += "C";
     }
     else if (dnk[i]==="C") {
-      rnk = rnk + "G";
+      rnk += "G";
     }
     else if (dnk[i]==="T") {
-      rnk = rnk + "A";
+      rnk += "A";
     }
     else if (dnk[i]==="A") {
-      rnk = rnk + "U";
+      rnk += "U";
     }
     else {
-      rnk = rnk + dnk[i];
+      rnk += dnk[i];
     }
   }
   return rnk;
