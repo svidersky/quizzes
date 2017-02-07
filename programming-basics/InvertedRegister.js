@@ -1,5 +1,5 @@
 /*
-The function changes a register of every symbols in a string.
+The function changes a register of each symbol in a string.
 */
 
 export const invertCase = (str) => {
